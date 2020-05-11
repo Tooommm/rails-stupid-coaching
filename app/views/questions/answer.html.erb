@@ -1,0 +1,27 @@
+
+
+<div class='container' id="user">
+  <div class= 'd-block-flex justify-content-center'>
+    <p>
+    <%= @answer %>
+    </p>
+    <br>
+    <p> <em> -You</em></p>
+  </div>
+</div>
+
+<div class='container' id='boss'>
+  <div class= 'd-block-flex justify-content-center'>
+    <p>
+      <strong><%= @reponse %></strong>
+    </p>
+    <br>
+    <p> <em> -Boss</em></p>
+  </div>
+</div>
+
+<div class='container'>
+  <p>
+  <%= link_to 'Ask a new question', '/ask' %>
+  </p>
+</div>
