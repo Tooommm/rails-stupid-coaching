@@ -1,8 +1,11 @@
-<h1>Stupid Coaching</h1>
-<p>Ask your coach anything:</p>
-<form action="/answer">
-<div class="form-group">
-  <input type="text" name="answer">
-  <button type="submit" class="btn btn-primary">Ask</button>
+<div class="container">
+  <h1>Stupid coaching</h1>
+  <form action="/answer">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Ask your coach anything</label>
+      <input type="text" name="question" class="form-control" id="textfield" aria-describedby="Help">
+      <small id="emailHelp" class="form-text text-muted">Ask me something</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </div>
-</form>

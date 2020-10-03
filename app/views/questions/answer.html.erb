@@ -1,27 +1,21 @@
+<div class="container">
+  <div class="title">
+    <h1>Stupid coaching</h1>
+  </div>
+  <div class="card">
+    <h5 class="card-header">Your question :</h5>
+    <div class="card-body">
+      <p class="card-text"> <%= @question %> </p>
+    </div>
+  </div>
 
-
-<div class='container' id="user">
-  <div class= 'd-block-flex justify-content-center'>
-    <p>
-    <%= @answer %>
-    </p>
-    <br>
-    <p> <em> -You</em></p>
+  <div class="card">
+    <h5 class="card-header">Your coach :</h5>
+    <div class="card-body">
+      <p class="card-text"> <%= @answer %> </p>
+    </div>
   </div>
 </div>
 
-<div class='container' id='boss'>
-  <div class= 'd-block-flex justify-content-center'>
-    <p>
-      <strong><%= @reponse %></strong>
-    </p>
-    <br>
-    <p> <em> -Boss</em></p>
-  </div>
-</div>
 
-<div class='container'>
-  <p>
-  <%= link_to 'Ask a new question', '/ask' %>
-  </p>
-</div>
+
